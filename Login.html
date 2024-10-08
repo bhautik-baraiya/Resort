@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./Register.css">
+</head>
+
+<body>
+    <a href="./Register.html"><button class="login mt-4 mr-4">Register</button></a>
+    <div class="main">
+        <h1>Login</h1>
+        <div class="row second">
+            <div class="col-lg-12">
+                <label for="email">Email</label><br>
+                <input class="reg-inp" type="email" id="email" name="useremail" placeholder="Enter Your Email">
+            </div>
+            <div class="col-lg-12 pt-3">
+                <label for="pass">Password</label><br>
+                <input class="reg-inp" type="password" id="pass" name="pass" placeholder="Enter Your Password">
+            </div>
+            <div class="col-lg-12 pt-4">
+               <button type="submit" onclick="onSubmit()">Login</button>
+            </div>
+        </div>
+    </div>
+    <script src="./Login.js"></script>
+</body>
+
+</html>
